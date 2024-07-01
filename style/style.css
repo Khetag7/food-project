@@ -417,3 +417,8 @@
 	flex-direction: column;
 	gap: 10px;
 }
+.container-dishes {
+	max-width: 1805px;
+	width: 100%;
+	margin: 0 auto;
+}
