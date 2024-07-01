@@ -355,4 +355,65 @@
 	color: var(--theme-gray-900);
 }
 .dishes__cards {
+	margin-top: 88px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.block__dishes-text {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: var(--theme-gray-800);
+}
+.dishes__info-icon span {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	color: var(--theme-primary);
+	color: rgba(255 182 29);
+}
+.dishes__price-text {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: var(--theme-gray-900);
+}
+.dishes__card-button {
+	box-shadow: 0 20px 40px 0 rgba(250, 99, 35, 0.24),
+		0 5px 10px 0 rgba(253, 114, 92, 0.22);
+	border-radius: 8px;
+	padding: 21px 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 10px;
+}
+.dishes__card-button:hover {
+	background: rgba(241 114 40);
+	transition: 0.3s;
+}
+.dishes__card-button p {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #bbdefb;
+}
+.dishes__block-card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 16px;
+}
+.dishes__texts {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.dishes__blocks-texts {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
